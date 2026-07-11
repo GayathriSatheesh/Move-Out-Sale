@@ -142,5 +142,42 @@
       ],
       "imageAlt": "Samsung TV with rolling stand"
     }
+    {
+      "id": "doormat",
+      "title": "Ikea Outdoor Mat",
+      "category": "Household Items",
+      "status": "available",
+      "description": "Ikea door mat with dog print",
+      "askingPrice": 25,
+      "originalPrice": 69,
+      "negotiable": true,
+      "bought": "Dec 2025",
+      "condition": "Great",
+      "pickup": "Easy pickup",
+      "link": "https://www.ikea.com/ae/en/p/arbetstag-door-mat-dog-40607054/",
+      "images": [
+        "images/doorMat.JPG"
+      ],
+      "imageAlt": "Doormat with dog motifs"
+    },
+
+    {
+      "id": "blender",
+      "title": "Philips Blender",
+      "category": "Household Items",
+      "status": "available",
+      "description": "Philips Blender with two jars. Powerful blade. Great for smoothies, original packaging",
+      "askingPrice": 80,
+      "originalPrice": 369,
+      "negotiable": true,
+      "bought": "Nov 2020",
+      "condition": "Good - works really well, wear and tear from use.",
+      "pickup": "Easy pickup",
+      "link": "https://www.philips.ae/c-p/HR3556_00/viva-collection-blender",
+      "images": [
+        "images/Blender.JPG"
+      ],
+      "imageAlt": "Blender with two jars"
+    }
   ]
 }
