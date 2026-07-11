@@ -148,6 +148,15 @@ function renderItems() {
 
     card.querySelector(".view-details").addEventListener("click", () => openDetails(item));
 
+    const originalLink = card.querySelector(".original-link");
+    if (item.link) {
+      originalLink.href = item.link;
+      originalLink.hidden = false;
+      originalLink.setAttribute("aria-label", `Open original item link for ${item.title}`);
+    } else {
+      originalLink.remove();
+    }
+
     const askLink = card.querySelector(".ask-link");
     askLink.href = whatsappUrl(buildItemMessage(item));
     askLink.setAttribute("aria-label", `Ask about ${item.title}`);
