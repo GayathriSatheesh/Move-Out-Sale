@@ -87,30 +87,6 @@ If you do want every visitor to be able to message you directly, set:
 
 Use country code and numbers only. Do not include `+`, spaces, or brackets.
 
-## Good Wording
-
-For the site:
-
-> I am checking what people are interested in before I move. Items can be reserved now, but pickup is only around 8-10 August.
-
-For WhatsApp groups:
-
-> Hi everyone, I am moving soon and checking interest for a few home items here: YOUR_WEBSITE_LINK. Pickup would be around 8-10 August. First message, first reserved, and I will update items as reserved or sold.
-
-## Preview Locally
-
-From this folder, run:
-
-```bash
-python3 -m http.server 8076
-```
-
-Then open:
-
-```text
-http://localhost:8076
-```
-
 ## Publish On GitHub Pages
 
 1. Go to GitHub and create a new repository. A name like `moving-sale` is fine.
