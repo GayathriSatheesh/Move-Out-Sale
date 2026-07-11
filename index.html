@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Move out sale</title>
+    <meta name="description" content="A friendly move-out sale catalog with item photos, prices, and reservation status.">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <script defer src="app.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <div class="title-block">
+          <p class="eyebrow" id="sale-kicker">Home moving sale</p>
+          <div class="title-wrap">
+            <h1 id="sale-title">
+              <span class="crayon-title-text">Move out sale</span>
+            </h1>
+          </div>
+          <p id="sale-note">First message, first reserved. Pickup details shared by WhatsApp.</p>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="sale-bar" aria-label="Sale details">
+        <div>
+          <span class="sale-bar-label">Pickup from</span>
+          <strong id="pickup-from">Soho Square Saadiyat Island</strong>
+        </div>
+        <div>
+          <span class="sale-bar-label">Pickup window</span>
+          <strong id="pickup-area">Area shared after reservation</strong>
+        </div>
+        <div>
+          <span class="sale-bar-label">Reservation</span>
+          <strong id="reservation-policy">First message, first reserved</strong>
+        </div>
+      </section>
+
+      <section class="controls" aria-label="Catalog controls">
+        <div class="segmented" aria-label="Filter by status">
+          <button class="segment is-active" type="button" data-status="all">All</button>
+          <button class="segment" type="button" data-status="available">Available</button>
+          <button class="segment" type="button" data-status="reserved">Reserved</button>
+          <button class="segment" type="button" data-status="sold">Sold</button>
+        </div>
+
+        <label class="select-field">
+          <span class="sr-only">Sort items</span>
+          <select id="sort-select">
+            <option value="recommended">Recommended</option>
+            <option value="price-low">Price low to high</option>
+            <option value="price-high">Price high to low</option>
+            <option value="newest">Newest listed</option>
+          </select>
+          <i data-lucide="chevron-down" aria-hidden="true"></i>
+        </label>
+      </section>
+
+      <section class="summary-row" aria-live="polite">
+        <p id="item-count">Loading items...</p>
+        <p id="last-updated"></p>
+      </section>
+
+      <section class="catalog" id="catalog" aria-label="Items for sale"></section>
+
+      <section class="empty-state" id="empty-state" hidden>
+        <h2>No matching items</h2>
+        <p>Try another status filter.</p>
+      </section>
+    </main>
+
+    <dialog class="item-dialog" id="item-dialog">
+      <div class="dialog-shell">
+        <button class="icon-button close-dialog" id="close-dialog" type="button" aria-label="Close item details">
+          <i data-lucide="x" aria-hidden="true"></i>
+        </button>
+        <div id="dialog-content"></div>
+      </div>
+    </dialog>
+
+    <template id="item-card-template">
+      <article class="item-card">
+        <div class="image-wrap">
+          <img class="item-image" alt="">
+          <div class="image-fallback" hidden>Photo coming soon</div>
+          <span class="status-chip"></span>
+          <span class="photo-count" hidden></span>
+        </div>
+        <div class="item-body">
+          <div class="item-heading">
+            <div>
+              <p class="item-category"></p>
+              <h2 class="item-title"></h2>
+            </div>
+            <p class="price"></p>
+          </div>
+          <p class="item-description"></p>
+          <dl class="item-facts"></dl>
+          <div class="item-actions">
+            <button class="action-button small view-details" type="button">
+              <i data-lucide="images" aria-hidden="true"></i>
+              <span>Details</span>
+            </button>
+            <a class="action-button small ask-link" target="_blank" rel="noopener">
+              <i data-lucide="message-circle" aria-hidden="true"></i>
+              <span>Ask</span>
+            </a>
+            <button class="icon-button copy-item-link" type="button" aria-label="Copy item link">
+              <i data-lucide="link" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+      </article>
+    </template>
+
+    <footer>
+      <p id="footer-note"></p>
+    </footer>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  </body>
+</html>

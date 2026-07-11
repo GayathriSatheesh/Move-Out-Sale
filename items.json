@@ -1,0 +1,146 @@
+{
+  "config": {
+    "title": "Move out sale",
+    "kicker": "Little home clear-out",
+    "note": "I am checking what people are interested in before I move. Items can be reserved now, pickup is around 8-10 August, and I will update this website as things are reserved or gone. If buyign multipel items I can offer more discount.",
+    "pickupFrom": "Soho Square, Saadiyat Island",
+    "pickupArea": "Pickup around 8-10 August",
+    "reservationPolicy": "First message, first reserved",
+    "footerNote": "Exact pickup details shared privately after reservation. Please check measurements and timing before confirming.",
+    "currencySymbol": "AED ",
+    "whatsappNumber": "",
+    "shareText": "Hi everyone, I am moving soon and checking interest for a few home items here: WEBSITE_LINK. Pickup would be around 8-10 August. First message, first reserved, and I will update the website as things are reserved or gone."
+  },
+  "items": [
+    {
+      "id": "green-sidetable",
+      "title": "Ikea HATTÅSEN Bedside table",
+      "category": "Furniture",
+      "status": "reserved",
+      "description": "Green colored ikea side table.",
+      "askingPrice": 40,
+      "originalPrice": 79,
+      "negotiable": false,
+      "bought": "Nov 2023",
+      "condition": "Great",
+      "pickup": "Easy pickup",
+      "link": "https://www.ikea.com/ae/en/p/hattasen-bedside-table-shelf-unit-white-80569234/",
+      "images": [
+        "images/green_sideTable.JPG"
+      ],
+      "imageAlt": "green bedside table"
+    },
+    {
+      "id": "standing-mirror",
+      "title": "Ikea Standing Mirror",
+      "category": "Furniture",
+      "status": "available",
+      "description": "Long standing mirror - no scratches, a bit of wear on frame from use",
+      "askingPrice": 30,
+      "originalPrice": 129,
+      "negotiable": true,
+      "bought": "Dec 2020",
+      "condition": " Good",
+      "pickup": "Easy pickup",
+      "link": "https://www.ikea.com/ae/en/p/flaknan-standing-mirror-white-40341568/",
+      "images": [
+        "images/Ikea_mirror.JPG"
+      ],
+      "imageAlt": "Ikea standing mirror"
+    },
+    {
+      "id": "ikea-bookshelf",
+      "title": "Ikea BILLY Book case",
+      "category": "Furniture",
+      "status": "available",
+      "description": "White Bookcase with adjsutable shelves",
+      "askingPrice": 150,
+      "originalPrice": 275,
+      "negotiable": true,
+      "bought": "Nov 2025",
+      "condition": "Great",
+      "pickup": "Elevator Access (might need to be dismantled for ease of transport)",
+      "link": "https://www.ikea.com/ae/en/p/billy-bookcase-white-00263850/",
+      "images": [
+        "images/ikea_bookShelf-2.JPG",
+        "images/ikea_bookShelf-1.JPG"
+      ],
+      "imageAlt": "Ikea BILLY bookcase"
+    },
+    {
+      "id": "washing-machine",
+      "title": "Midea Washing Machine",
+      "category": "Appliances",
+      "status": "available",
+      "description": "Midea 8kg wahsing machine 2025 model - Front load",
+      "askingPrice": 600,
+      "originalPrice": 1000,
+      "negotiable": true,
+      "bought": "Dec 2025",
+      "condition": "Good as New",
+      "pickup": "Elevator Access",
+      "link": "https://amzn.eu/d/0fDSQDVJ",
+      "images": [
+        "images/Midea_WashingMachine-1.JPG",
+        "images/Midea_WashingMachine-2.JPG"
+      ],
+      "imageAlt": "Midea washing machine"
+    },
+    {
+      "id": "cooking-hob",
+      "title": "Siemens Electric Hob",
+      "category": "Appliances",
+      "status": "available",
+      "description": "Gently used for only 5 months, looks as good as new",
+      "askingPrice": 1000,
+      "originalPrice": 1799,
+      "negotiable": true,
+      "bought": "Nov 2025",
+      "condition": "Good as New",
+      "pickup": "Elevator Access; will need to be dismantled",
+      "link": "https://amzn.eu/d/09Xq7pPA",
+      "images": [
+        "images/CookingHob-1.jpg",
+        "images/CookingHob-2.JPG"
+      ],
+      "imageAlt": "Siemens Cooking Hob"
+    },
+    {
+      "id": "shoe-stand",
+      "title": "Ikea Shoe Stand",
+      "category": "Furniture",
+      "status": "available",
+      "description": "Long standing mirror - no scratches, a bit of wear on frame from use",
+      "askingPrice": 70,
+      "originalPrice": 129,
+      "negotiable": true,
+      "bought": "Dec 2025",
+      "condition": "Great",
+      "pickup": "Easy pickup",
+      "link": "https://www.ikea.com/ae/en/p/bissa-shoe-cabinet-with-2-compartments-white-70530256/",
+      "images": [
+        "images/Ikea_ShoeStand-1.JPG",
+        "images/Ikea_ShoeStand-2.JPG"
+      ],
+      "imageAlt": "Ikea shoe stand"
+    },
+    {
+      "id": "tv-with-stand",
+      "title": "Samsung TV + Rolling Stand",
+      "category": "Furniture",
+      "status": "available",
+      "description": "Samsung Smart TV (Full HD/43') + Rolling Stand. Ideally would like to sell them together.",
+      "askingPrice": 400,
+      "originalPrice": 650,
+      "negotiable": true,
+      "bought": "Dec 2025 (it was second hand)",
+      "condition": "Great",
+      "pickup": "Easy pickup",
+      "link": "https://amzn.eu/d/0fXFuDkl",
+      "images": [
+        "images/TV_RollingStand.JPG"
+      ],
+      "imageAlt": "Samsung TV with rolling stand"
+    }
+  ]
+}
