@@ -107,7 +107,7 @@ function renderItems() {
   const visibleItems = getVisibleItems();
   catalog.innerHTML = "";
 
-  visibleItems.forEach((item) => {
+  visibleItems.forEach((item, index) => {
     const card = template.content.firstElementChild.cloneNode(true);
     card.id = item.id;
     card.dataset.status = item.status || "available";
@@ -118,6 +118,8 @@ function renderItems() {
     if (primaryImage) {
       image.src = primaryImage;
       image.alt = item.imageAlt || `${item.title} photo`;
+      image.loading = index === 0 ? "eager" : "lazy";
+      image.decoding = "async";
       image.addEventListener("error", () => {
         image.hidden = true;
         fallback.hidden = false;
@@ -152,7 +154,7 @@ function renderItems() {
     if (item.link) {
       originalLink.href = item.link;
       originalLink.hidden = false;
-      originalLink.setAttribute("aria-label", `Open original item link for ${item.title}`);
+      originalLink.setAttribute("aria-label", `Open item link for ${item.title}`);
     } else {
       originalLink.remove();
     }
@@ -233,6 +235,8 @@ function openDetails(item) {
     image.className = "dialog-photo";
     image.src = images[0];
     image.alt = item.imageAlt || `${item.title} photo`;
+    image.loading = "eager";
+    image.decoding = "async";
     photoWrap.append(image);
   } else {
     const fallback = document.createElement("div");
@@ -250,6 +254,8 @@ function openDetails(item) {
       const thumb = document.createElement("img");
       thumb.src = src;
       thumb.alt = `${item.title} photo ${index + 1}`;
+      thumb.loading = "lazy";
+      thumb.decoding = "async";
       thumb.addEventListener("click", () => {
         const mainImage = photoWrap.querySelector("img");
         if (mainImage) mainImage.src = src;

@@ -26,7 +26,7 @@
       "pickup": "Easy pickup",
       "link": "https://www.ikea.com/ae/en/p/hattasen-bedside-table-shelf-unit-white-80569234/",
       "images": [
-        "images/green_sideTable.JPG"
+        "images/web/green_sideTable.webp"
       ],
       "imageAlt": "green bedside table"
     },
@@ -44,7 +44,7 @@
       "pickup": "Easy pickup",
       "link": "https://www.ikea.com/ae/en/p/flaknan-standing-mirror-white-40341568/",
       "images": [
-        "images/Ikea_mirror.JPG"
+        "images/web/Ikea_mirror.webp"
       ],
       "imageAlt": "Ikea standing mirror"
     },
@@ -62,8 +62,8 @@
       "pickup": "Elevator Access (might need to be dismantled for ease of transport)",
       "link": "https://www.ikea.com/ae/en/p/billy-bookcase-white-00263850/",
       "images": [
-        "images/ikea_bookShelf-2.JPG",
-        "images/ikea_bookShelf-1.JPG"
+        "images/web/ikea_bookShelf-2.webp",
+        "images/web/ikea_bookShelf-1.webp"
       ],
       "imageAlt": "Ikea BILLY bookcase"
     },
@@ -81,8 +81,8 @@
       "pickup": "Elevator Access",
       "link": "https://amzn.eu/d/0fDSQDVJ",
       "images": [
-        "images/Midea_WashingMachine-1.JPG",
-        "images/Midea_WashingMachine-2.JPG"
+        "images/web/Midea_WashingMachine-1.webp",
+        "images/web/Midea_WashingMachine-2.webp"
       ],
       "imageAlt": "Midea washing machine"
     },
@@ -100,9 +100,9 @@
       "pickup": "Elevator Access; will need to be dismantled",
       "link": "https://amzn.eu/d/09Xq7pPA",
       "images": [
-        "images/CookingHob-1.jpg",
-        "images/CookingHob-3.JPG",
-        "images/CookingHob-4.JPG"
+        "images/web/CookingHob-1.webp",
+        "images/web/CookingHob-3.webp",
+        "images/web/CookingHob-4.webp"
       ],
       "imageAlt": "Siemens Cooking Hob"
     },
@@ -120,8 +120,8 @@
       "pickup": "Easy pickup",
       "link": "https://www.ikea.com/ae/en/p/bissa-shoe-cabinet-with-2-compartments-white-70530256/",
       "images": [
-        "images/Ikea_ShoeStand-1.JPG",
-        "images/Ikea_ShoeStand-2.JPG"
+        "images/web/Ikea_ShoeStand-1.webp",
+        "images/web/Ikea_ShoeStand-2.webp"
       ],
       "imageAlt": "Ikea shoe stand"
     },
@@ -139,7 +139,7 @@
       "pickup": "Easy pickup",
       "link": "https://amzn.eu/d/0fXFuDkl",
       "images": [
-        "images/TV_RollingStand.JPG"
+        "images/web/TV_RollingStand.webp"
       ],
       "imageAlt": "Samsung TV with rolling stand"
     },
@@ -157,7 +157,7 @@
       "pickup": "Easy pickup",
       "link": "https://www.philips.ae/c-p/HR3556_00/viva-collection-blender",
       "images": [
-        "images/Blender.JPG"
+        "images/web/Blender.webp"
       ],
       "imageAlt": "Blender with two jars"
     },
@@ -175,7 +175,7 @@
       "pickup": "Easy pickup",
       "link": "https://amzn.eu/d/0fXtDMXa",
       "images": [
-        "images/vaccumCleaner.JPG"
+        "images/web/vaccumCleaner.webp"
       ],
       "imageAlt": "Cordless Vaccum Cleaner"
     },
@@ -193,7 +193,7 @@
       "pickup": "Easy pickup",
       "link": "https://amzn.eu/d/05V0GnPh",
       "images": [
-        "images/mop.JPG"
+        "images/web/mop.webp"
       ],
       "imageAlt": "Scotch Bright Mop"
     },
@@ -211,7 +211,7 @@
       "pickup": "Easy pickup",
       "link": "https://www.ikea.com/ae/en/p/arbetstag-door-mat-dog-40607054/",
       "images": [
-        "images/doorMat.JPG"
+        "images/web/doorMat.webp"
       ],
       "imageAlt": "Doormat with dog motifs"
     },
@@ -229,7 +229,7 @@
       "pickup": "Easy pickup",
       "link": "https://www.ikea.com/ae/en/p/marius-stool-white-90184047/",
       "images": [
-        "images/IkeaStools.JPG"
+        "images/web/IkeaStools.webp"
       ],
       "imageAlt": "White stool"
     },
@@ -247,7 +247,7 @@
       "pickup": "Easy pickup",
       "link": "https://www.ikea.com/ae/en/p/blanda-blank-serving-bowl-stainless-steel-50057254/",
       "images": [
-        "images/saladMixingBowl.JPG"
+        "images/web/saladMixingBowl.webp"
       ],
       "imageAlt": "Steel Serving Bowls"
     }
