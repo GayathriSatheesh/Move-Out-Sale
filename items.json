@@ -141,7 +141,7 @@
         "images/TV_RollingStand.JPG"
       ],
       "imageAlt": "Samsung TV with rolling stand"
-    }
+    },
     {
       "id": "doormat",
       "title": "Ikea Outdoor Mat",
@@ -160,7 +160,6 @@
       ],
       "imageAlt": "Doormat with dog motifs"
     },
-
     {
       "id": "blender",
       "title": "Philips Blender",
