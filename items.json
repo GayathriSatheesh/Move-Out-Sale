@@ -143,6 +143,60 @@
       "imageAlt": "Samsung TV with rolling stand"
     },
     {
+      "id": "blender",
+      "title": "Philips Blender",
+      "category": "Household Items",
+      "status": "available",
+      "description": "Philips Blender with two jars. Powerful blade. Great for smoothies, original packaging",
+      "askingPrice": 80,
+      "originalPrice": 369,
+      "negotiable": true,
+      "bought": "Nov 2020",
+      "condition": "Good - works really well, wear and tear from use.",
+      "pickup": "Easy pickup",
+      "link": "https://www.philips.ae/c-p/HR3556_00/viva-collection-blender",
+      "images": [
+        "images/Blender.JPG"
+      ],
+      "imageAlt": "Blender with two jars"
+    },
+    {
+      "id": "vaccum-cleaner",
+      "title": "Cordless Vaccum Cleaner",
+      "category": "Household Items",
+      "status": "available",
+      "description": "Russell Hobbs Cordless Vaccum Clear",
+      "askingPrice": 200,
+      "originalPrice": 453,
+      "negotiable": true,
+      "bought": "Sep 2024",
+      "condition": "Great",
+      "pickup": "Easy pickup",
+      "link": "https://amzn.eu/d/0fXtDMXa",
+      "images": [
+        "images/vaccumCleaner.JPG"
+      ],
+      "imageAlt": "Cordless Vaccum Cleaner"
+    },
+    {
+      "id": "mop-stick",
+      "title": "Mop Stick",
+      "category": "Household Items",
+      "status": "available",
+      "description": "Scotch bright Sweeper Mop Stick",
+      "askingPrice": 10,
+      "originalPrice": 60,
+      "negotiable": true,
+      "bought": "Sep 2024",
+      "condition": "Great",
+      "pickup": "Easy pickup",
+      "link": "https://amzn.eu/d/05V0GnPh",
+      "images": [
+        "images/mop.JPG"
+      ],
+      "imageAlt": "Scotch Bright Mop"
+    },
+    {
       "id": "doormat",
       "title": "Ikea Outdoor Mat",
       "category": "Household Items",
@@ -161,22 +215,40 @@
       "imageAlt": "Doormat with dog motifs"
     },
     {
-      "id": "blender",
-      "title": "Philips Blender",
+      "id": "stool",
+      "title": "Ikea stool",
       "category": "Household Items",
       "status": "available",
-      "description": "Philips Blender with two jars. Powerful blade. Great for smoothies, original packaging",
-      "askingPrice": 80,
-      "originalPrice": 369,
-      "negotiable": true,
-      "bought": "Nov 2020",
-      "condition": "Good - works really well, wear and tear from use.",
+      "description": "Ikea MARIUS white stool",
+      "askingPrice": 5,
+      "originalPrice": 38,
+      "negotiable": false,
+      "bought": "Dec 2020",
+      "condition": "Good",
       "pickup": "Easy pickup",
-      "link": "https://www.philips.ae/c-p/HR3556_00/viva-collection-blender",
+      "link": "https://www.ikea.com/ae/en/p/marius-stool-white-90184047/",
       "images": [
-        "images/Blender.JPG"
+        "images/IkeaStools.JPG"
       ],
-      "imageAlt": "Blender with two jars"
+      "imageAlt": "White stool"
+    },
+    {
+      "id": "Salad-Bowls",
+      "title": "Serving Bowls",
+      "category": "Household Items",
+      "status": "available",
+      "description": "Ikea servign bowls",
+      "askingPrice": 0,
+      "originalPrice": 20,
+      "negotiable": true,
+      "bought": "Dec 2024",
+      "condition": "Decent",
+      "pickup": "Easy pickup",
+      "link": "https://www.ikea.com/ae/en/p/blanda-blank-serving-bowl-stainless-steel-50057254/",
+      "images": [
+        "images/saladMixingBowl.JPG"
+      ],
+      "imageAlt": "Steel Serving Bowls"
     }
   ]
 }
