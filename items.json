@@ -50,10 +50,10 @@
     },
     {
       "id": "ikea-bookshelf",
-      "title": "Ikea BILLY Book case",
+      "title": "Ikea BILLY Bookcase",
       "category": "Furniture",
       "status": "available",
-      "description": "White Bookcase with adjsutable shelves",
+      "description": "White Bookcase with adjustable shelves",
       "askingPrice": 150,
       "originalPrice": 275,
       "negotiable": true,
@@ -72,7 +72,7 @@
       "title": "Midea Washing Machine",
       "category": "Appliances",
       "status": "available",
-      "description": "Midea 8kg wahsing machine 2025 model - Front load",
+      "description": "Midea 8kg washing machine 2025 model - Front load",
       "askingPrice": 600,
       "originalPrice": 1000,
       "negotiable": true,
@@ -162,11 +162,11 @@
       "imageAlt": "Blender with two jars"
     },
     {
-      "id": "vaccum-cleaner",
-      "title": "Cordless Vaccum Cleaner",
+      "id": "vacuum-cleaner",
+      "title": "Cordless Vacuum Cleaner",
       "category": "Household Items",
       "status": "available",
-      "description": "Russell Hobbs Cordless Vaccum Clear",
+      "description": "Russell Hobbs Cordless Vacuum Cleaner",
       "askingPrice": 150,
       "originalPrice": 453,
       "negotiable": true,
@@ -177,7 +177,7 @@
       "images": [
         "images/web/vaccumCleaner.webp"
       ],
-      "imageAlt": "Cordless Vaccum Cleaner"
+      "imageAlt": "Cordless Vacium Cleaner"
     },
     {
       "id": "mop-stick",
@@ -251,7 +251,7 @@
         "images/web/foldableDesk-1.webp",
         "images/web/foldableDesk-2.webp"
       ],
-      "imageAlt": "White stool"
+      "imageAlt": "foldable desk"
     },
     {
       "id": "stool",
@@ -273,7 +273,7 @@
     },
     {
       "id": "curtain-rod",
-      "title": "Showe Curtain Rod",
+      "title": "Shower Curtain Rod",
       "category": "Household Items",
       "status": "available",
       "description": "Amazon basics adjustable shower curtain tension rod",
@@ -294,7 +294,7 @@
       "title": "Serving Bowls",
       "category": "Household Items",
       "status": "available",
-      "description": "Ikea servign bowls",
+      "description": "Ikea serving bowls",
       "askingPrice": 0,
       "originalPrice": 20,
       "negotiable": true,
