@@ -216,22 +216,79 @@
       "imageAlt": "Doormat with dog motifs"
     },
     {
-      "id": "stool",
-      "title": "Ikea stool",
+      "id": "foot-stool",
+      "title": "Wooden stool",
       "category": "Household Items",
       "status": "available",
-      "description": "Ikea MARIUS white stool",
-      "askingPrice": 5,
-      "originalPrice": 38,
+      "description": "Small wooden stool from Amazon - great for foot suport or keeping pots. ",
+      "askingPrice": 20,
+      "originalPrice": 50,
       "negotiable": false,
-      "bought": "Dec 2020",
+      "bought": "April 2026",
+      "condition": "Great",
+      "pickup": "Easy pickup",
+      "link": "https://amzn.eu/d/08CKs1Nl",
+      "images": [
+        "images/web/footStool-1.webp",
+        "images/web/footStool-2.webp"
+      ],
+      "imageAlt": "Wooden stool"
+    },
+    {
+      "id": "foldable-desk",
+      "title": "Foldable Laptop Desk",
+      "category": "Household Items",
+      "status": "available",
+      "description": "Amazon foldable laptop desk ",
+      "askingPrice": 5,
+      "originalPrice": 28,
+      "negotiable": false,
+      "bought": "Jan 2024",
       "condition": "Good",
       "pickup": "Easy pickup",
-      "link": "https://www.ikea.com/ae/en/p/marius-stool-white-90184047/",
+      "link": "https://amzn.eu/d/08CKs1Nl",
       "images": [
-        "images/web/IkeaStools.webp"
+        "images/web/foldableDesk-1.webp",
+        "images/web/foldableDesk-2.webp"
       ],
       "imageAlt": "White stool"
+    },
+    {
+      "id": "foldable-desk",
+      "title": "Foldable Laptop Desk",
+      "category": "Household Items",
+      "status": "available",
+      "description": "Amazon foldable laptop desk ",
+      "askingPrice": 5,
+      "originalPrice": 28,
+      "negotiable": false,
+      "bought": "Jan 2024",
+      "condition": "Good",
+      "pickup": "Easy pickup",
+      "link": "https://amzn.eu/d/08CKs1Nl",
+      "images": [
+        "images/web/foldableDesk-1.webp",
+        "images/web/foldableDesk-2.webp"
+      ],
+      "imageAlt": "White stool"
+    },
+    {
+      "id": "curtain-rod",
+      "title": "Showe Curtain Rod",
+      "category": "Household Items",
+      "status": "available",
+      "description": "Amazon basics adjustable shower curtain tension rod",
+      "askingPrice": 15,
+      "originalPrice": 48,
+      "negotiable": true,
+      "bought": "Nov 2025",
+      "condition": "Good",
+      "pickup": "Easy pickup",
+      "link": "https://amzn.eu/d/07UCgzKf",
+      "images": [
+        "images/web/curtainRod.webp"
+      ],
+      "imageAlt": "curtain rod"
     },
     {
       "id": "Salad-Bowls",
