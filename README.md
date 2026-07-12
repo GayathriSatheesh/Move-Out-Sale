@@ -1,6 +1,6 @@
 # Moving Sale Website
 
-This is a GitHub Pages-ready static website for a friendly move-out sale. You edit one file, `items.json`, add photos to `images/`, and GitHub Pages publishes the catalog.
+This is a GitHub Pages-ready static website for a move-out sale. You edit one file, `items.json`, add photos to `images/`, and GitHub Pages publishes the catalog.
 
 ## What To Edit
 
@@ -11,11 +11,12 @@ This is a GitHub Pages-ready static website for a friendly move-out sale. You ed
 ## Add Your Real Items
 
 1. Put your photos in `images/`.
-2. Use simple lowercase names with hyphens, like `images/dining-table-1.jpg`.
-3. Open `items.json`.
-4. Copy one sample item object and replace the values.
-5. Keep `status` as one of: `available`, `reserved`, or `sold`.
-6. Save the file.
+2. Use simple lowercase names with hyphens, like `images/web/dining-table-1.webp`.
+3. Run the script under `script/` to turn high-resolution images into a web-friendly format for ease of loading.
+4. Open `items.json`.
+5. Copy one sample item object and replace the values.
+6. Keep `status` as one of: `available`, `reserved`, or `sold`.
+7. Save the file.
 
 Example item:
 
@@ -35,8 +36,8 @@ Example item:
   "listedOn": "2026-07-11",
   "link": "https://example.com/original-product-link",
   "images": [
-    "images/dining-table-1.jpg",
-    "images/dining-table-2.jpg"
+    "images/web/dining-table-1.webp",
+    "images/web/dining-table-2.webp"
   ],
   "imageAlt": "Dining table with four chairs"
 }
@@ -52,7 +53,7 @@ One photo:
 
 ```json
 "images": [
-  "images/dining-table-1.jpg"
+  "images/web/dining-table-1.webp"
 ]
 ```
 
@@ -60,8 +61,8 @@ Two photos:
 
 ```json
 "images": [
-  "images/dining-table-1.jpg",
-  "images/dining-table-2.jpg"
+  "images/web/dining-table-1.webp",
+  "images/web/dining-table-2.webp"
 ]
 ```
 
