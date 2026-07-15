@@ -372,6 +372,17 @@ main {
   aspect-ratio: 3 / 4;
   background: #f3f8fb;
   overflow: hidden;
+  cursor: pointer;
+}
+
+.image-wrap:hover .item-image,
+.image-wrap:hover .card-photo-grid {
+  filter: brightness(0.98);
+}
+
+.image-wrap:focus-visible {
+  outline: 3px solid rgba(90, 183, 232, 0.5);
+  outline-offset: 3px;
 }
 
 .item-image,
