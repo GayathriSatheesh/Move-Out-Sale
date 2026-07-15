@@ -163,6 +163,42 @@
       "imageAlt": "Samsung TV with rolling stand"
     },
     {
+      "id": "steam-iron",
+      "title": "Cloth Steamer",
+      "category": "Household Items",
+      "status": "available",
+      "description": "Steamer for clothes.",
+      "askingPrice": 30,
+      "originalPrice": 111,
+      "negotiable": true,
+      "bought": "July 2024",
+      "condition": "OK  - works well but has some wear from use",
+      "pickup": "Easy pickup",
+      "link": "https://amzn.eu/d/04U7IY9b",
+      "images": [
+        "images/web/steamer.webp"
+      ],
+      "imageAlt": "Steam Iron"
+    },
+    {
+      "id": "hair-dryer",
+      "title": "Hair Blow Dryer ( + Diffuser)",
+      "category": "Household Items",
+      "status": "available",
+      "description": " Ionic Hair Dryer - has all the attachments in original packaging",
+      "askingPrice": 60,
+      "originalPrice": 105,
+      "negotiable": true,
+      "bought": "July 2024",
+      "condition": "Great",
+      "pickup": "Easy pickup",
+      "link": "https://amzn.eu/d/04HuFmvr",
+      "images": [
+        "images/web/dryer.webp"
+      ],
+      "imageAlt": "Hair Blow Dryer"
+    },
+    {
       "id": "blender",
       "title": "Philips Blender",
       "category": "Household Items",
