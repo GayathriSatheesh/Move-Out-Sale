@@ -107,6 +107,25 @@
       "imageAlt": "Siemens Cooking Hob"
     },
     {
+      "id": "white-wooden-stool",
+      "title": "Ikea wooden side table",
+      "category": "Furniture",
+      "status": "available",
+      "description": "Ikea wooden side table that can be used as a stool too.",
+      "askingPrice": 25,
+      "originalPrice": 45,
+      "negotiable": false,
+      "bought": "Nov 2025",
+      "condition": "Good as New",
+      "pickup": "Easy pickup",
+      "link": "",
+      "images": [
+        "images/web/whiteStool-1.webp",
+        "images/web/whiteStool-2.webp",
+      ],
+      "imageAlt": "Ikea wooden stool"
+    },
+    {
       "id": "shoe-stand",
       "title": "Ikea Shoe Stand",
       "category": "Furniture",
