@@ -46,6 +46,45 @@ async function init() {
   }
 }
 
+function renderCardPhotos(imageWrap, image, fallback, images, item, cardIndex) {
+  if (!images.length) {
+    image.hidden = true;
+    fallback.hidden = false;
+    return;
+  }
+
+  if (images.length === 1) {
+    image.src = images[0];
+    image.alt = item.imageAlt || `${item.title} photo`;
+    image.loading = cardIndex === 0 ? "eager" : "lazy";
+    image.decoding = "async";
+    image.addEventListener("error", () => {
+      image.hidden = true;
+      fallback.hidden = false;
+    });
+    return;
+  }
+
+  image.remove();
+  const gallery = document.createElement("div");
+  const layoutClass = images.length === 2 ? "count-2" : images.length === 3 ? "count-3" : "count-many";
+  gallery.className = `card-photo-grid ${layoutClass}`;
+
+  images.forEach((src, photoIndex) => {
+    const photo = document.createElement("img");
+    photo.src = src;
+    photo.alt = `${item.title || "Item"} photo ${photoIndex + 1}`;
+    photo.loading = cardIndex === 0 && photoIndex === 0 ? "eager" : "lazy";
+    photo.decoding = "async";
+    photo.addEventListener("error", () => {
+      photo.hidden = true;
+    });
+    gallery.append(photo);
+  });
+
+  imageWrap.insertBefore(gallery, fallback);
+}
+
 function bindControls() {
   document.querySelector("#sort-select").addEventListener("change", (event) => {
     state.sort = event.target.value;
@@ -112,22 +151,11 @@ function renderItems() {
     card.id = item.id;
     card.dataset.status = item.status || "available";
 
+    const images = getImages(item);
+    const imageWrap = card.querySelector(".image-wrap");
     const image = card.querySelector(".item-image");
     const fallback = card.querySelector(".image-fallback");
-    const primaryImage = getImages(item)[0];
-    if (primaryImage) {
-      image.src = primaryImage;
-      image.alt = item.imageAlt || `${item.title} photo`;
-      image.loading = index === 0 ? "eager" : "lazy";
-      image.decoding = "async";
-      image.addEventListener("error", () => {
-        image.hidden = true;
-        fallback.hidden = false;
-      });
-    } else {
-      image.hidden = true;
-      fallback.hidden = false;
-    }
+    renderCardPhotos(imageWrap, image, fallback, images, item, index);
 
     const status = normalizeStatus(item.status);
     const statusChip = card.querySelector(".status-chip");
@@ -135,7 +163,6 @@ function renderItems() {
     statusChip.classList.add(status);
 
     const photoCount = card.querySelector(".photo-count");
-    const images = getImages(item);
     if (images.length > 1) {
       photoCount.hidden = false;
       photoCount.textContent = `${images.length} photos`;
