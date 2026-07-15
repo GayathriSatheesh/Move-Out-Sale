@@ -107,6 +107,24 @@
       "imageAlt": "Siemens Cooking Hob"
     },
     {
+      "id": "tv-with-stand",
+      "title": "Samsung TV + Rolling Stand",
+      "category": "Furniture",
+      "status": "available",
+      "description": "Samsung Smart TV (Full HD/43') + Rolling Stand. Ideally would like to sell them together.",
+      "askingPrice": 400,
+      "originalPrice": 650,
+      "negotiable": true,
+      "bought": "Dec 2025 (it was second hand)",
+      "condition": "Great",
+      "pickup": "Easy pickup",
+      "link": "https://amzn.eu/d/0fXFuDkl",
+      "images": [
+        "images/web/TV_RollingStand.webp"
+      ],
+      "imageAlt": "Samsung TV with rolling stand"
+    },
+    {
       "id": "white-wooden-stool",
       "title": "Ikea wooden side table",
       "category": "Furniture",
@@ -143,24 +161,6 @@
         "images/web/Ikea_ShoeStand-2.webp"
       ],
       "imageAlt": "Ikea shoe stand"
-    },
-    {
-      "id": "tv-with-stand",
-      "title": "Samsung TV + Rolling Stand",
-      "category": "Furniture",
-      "status": "available",
-      "description": "Samsung Smart TV (Full HD/43') + Rolling Stand. Ideally would like to sell them together.",
-      "askingPrice": 400,
-      "originalPrice": 650,
-      "negotiable": true,
-      "bought": "Dec 2025 (it was second hand)",
-      "condition": "Great",
-      "pickup": "Easy pickup",
-      "link": "https://amzn.eu/d/0fXFuDkl",
-      "images": [
-        "images/web/TV_RollingStand.webp"
-      ],
-      "imageAlt": "Samsung TV with rolling stand"
     },
     {
       "id": "steam-iron",
