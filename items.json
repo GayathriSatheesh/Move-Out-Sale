@@ -151,7 +151,7 @@
       "description": "Philips Blender with two jars. Powerful blade. Great for smoothies, original packaging",
       "askingPrice": 80,
       "originalPrice": 369,
-      "negotiable": true,
+      "negotiable": false,
       "bought": "Nov 2020",
       "condition": "Good - works really well.",
       "pickup": "Easy pickup",
