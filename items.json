@@ -182,6 +182,25 @@
       "imageAlt": "Siemens Cooking Hob"
     },
     {
+      "id": "shoe-stand",
+      "title": "Ikea Shoe Stand",
+      "category": "Furniture",
+      "status": "available",
+      "description": "Can fit up to 8 pairs comfortably",
+      "askingPrice": 65,
+      "originalPrice": 129,
+      "negotiable": true,
+      "bought": "Dec 2025",
+      "condition": "Great",
+      "pickup": "Easy pickup",
+      "link": "https://www.ikea.com/ae/en/p/bissa-shoe-cabinet-with-2-compartments-white-70530256/",
+      "images": [
+        "images/web/Ikea_ShoeStand-1.webp",
+        "images/web/Ikea_ShoeStand-2.webp"
+      ],
+      "imageAlt": "Ikea shoe stand"
+    },
+    {
       "id": "bamboo-bookReader",
       "title": "Book Stand/Reader",
       "category": "Household Items",
@@ -237,25 +256,6 @@
         "images/web/whiteStool-2.webp"
       ],
       "imageAlt": "Ikea wooden stool"
-    },
-    {
-      "id": "shoe-stand",
-      "title": "Ikea Shoe Stand",
-      "category": "Furniture",
-      "status": "available",
-      "description": "Can fit up to 8 pairs comfortably",
-      "askingPrice": 65,
-      "originalPrice": 129,
-      "negotiable": true,
-      "bought": "Dec 2025",
-      "condition": "Great",
-      "pickup": "Easy pickup",
-      "link": "https://www.ikea.com/ae/en/p/bissa-shoe-cabinet-with-2-compartments-white-70530256/",
-      "images": [
-        "images/web/Ikea_ShoeStand-1.webp",
-        "images/web/Ikea_ShoeStand-2.webp"
-      ],
-      "imageAlt": "Ikea shoe stand"
     },
     {
       "id": "steam-iron",
