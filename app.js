@@ -134,17 +134,19 @@ function renderItems() {
     const image = card.querySelector(".item-image");
     const fallback = card.querySelector(".image-fallback");
     renderCardPhotos(imageWrap, image, fallback, images, item, index);
-    imageWrap.setAttribute("role", "button");
-    imageWrap.setAttribute("tabindex", "0");
-    imageWrap.setAttribute("aria-label", `Open details for ${item.title || "this item"}`);
-    imageWrap.title = "Open details";
-    imageWrap.addEventListener("click", () => openDetails(item));
-    imageWrap.addEventListener("keydown", (event) => {
-      if (event.key === "Enter" || event.key === " ") {
-        event.preventDefault();
-        openDetails(item);
-      }
-    });
+    if (images.length) {
+      image.setAttribute("role", "button");
+      image.setAttribute("tabindex", "0");
+      image.setAttribute("aria-label", `Open details for ${item.title || "this item"}`);
+      image.title = "Open details";
+      image.addEventListener("click", () => openDetails(item));
+      image.addEventListener("keydown", (event) => {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          openDetails(item);
+        }
+      });
+    }
 
     const status = normalizeStatus(item.status);
     const statusChip = card.querySelector(".status-chip");

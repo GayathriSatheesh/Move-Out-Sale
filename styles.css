@@ -370,21 +370,35 @@ main {
 .image-wrap {
   position: relative;
   aspect-ratio: 3 / 4;
-  background: #f3f8fb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  background: #d9edf8;
   overflow: hidden;
+  box-shadow: inset 0 0 0 1px rgba(43, 120, 164, 0.08);
+}
+
+.item-image {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  border-radius: 6px;
+  background: transparent;
   cursor: pointer;
 }
 
-.image-wrap:hover .item-image {
+.item-image:hover {
   filter: brightness(0.98);
 }
 
-.image-wrap:focus-visible {
+.item-image:focus-visible {
   outline: 3px solid rgba(90, 183, 232, 0.5);
   outline-offset: 3px;
 }
 
-.item-image,
 .dialog-photo {
   width: 100%;
   height: 100%;
