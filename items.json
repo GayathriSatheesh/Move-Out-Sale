@@ -317,11 +317,11 @@
       "category": "Household Items",
       "status": "available",
       "description": "Smart scale - can do basic body composition analysis | connects to eufy app via bluetooth",
-      "askingPrice": 20,
+      "askingPrice": 30,
       "originalPrice": 99,
       "negotiable": true,
       "bought": "July 2023",
-      "condition": "Good - battery replacement needed",
+      "condition": "Great",
       "pickup": "Easy pickup",
       "link": "https://amzn.eu/d/0a1kaxvl",
       "images": [
@@ -495,7 +495,7 @@
       ],
       "imageAlt": "curtain rod"
     },
-    
+
     {
       "id": "bamboo-bookReader",
       "title": "Book Stand/Reader",
