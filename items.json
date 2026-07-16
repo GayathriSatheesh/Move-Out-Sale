@@ -87,7 +87,43 @@
       ],
       "imageAlt": "HomeCentre Mattress"
     },
-
+    {
+      "id": "ikea-bookshelf",
+      "title": "Ikea BILLY Bookcase",
+      "category": "Furniture",
+      "status": "available",
+      "description": "White Bookcase with adjustable shelves",
+      "askingPrice": 150,
+      "originalPrice": 275,
+      "negotiable": true,
+      "bought": "Nov 2025",
+      "condition": "Great",
+      "pickup": "Elevator Access (might need to be dismantled for ease of transport)",
+      "link": "https://www.ikea.com/ae/en/p/billy-bookcase-white-00263850/",
+      "images": [
+        "images/web/ikea_bookShelf-2.webp",
+        "images/web/ikea_bookShelf-1.webp"
+      ],
+      "imageAlt": "Ikea BILLY bookcase"
+    },
+    {
+      "id": "tv-with-stand",
+      "title": "Samsung TV + Rolling Stand",
+      "category": "Furniture",
+      "status": "available",
+      "description": "Samsung Smart TV (Full HD/43') + Rolling Stand. Ideally would like to sell them together.",
+      "askingPrice": 400,
+      "originalPrice": 650,
+      "negotiable": false,
+      "bought": "Dec 2025 (it was second hand)",
+      "condition": "Great",
+      "pickup": "Easy pickup",
+      "link": "https://amzn.eu/d/0fXFuDkl",
+      "images": [
+        "images/web/TV_RollingStand.webp"
+      ],
+      "imageAlt": "Samsung TV with rolling stand"
+    },
     {
       "id": "washing-machine",
       "title": "Midea Washing Machine",
@@ -182,43 +218,7 @@
       ],
       "imageAlt": "organizers"
     },
-    {
-      "id": "ikea-bookshelf",
-      "title": "Ikea BILLY Bookcase",
-      "category": "Furniture",
-      "status": "available",
-      "description": "White Bookcase with adjustable shelves",
-      "askingPrice": 150,
-      "originalPrice": 275,
-      "negotiable": true,
-      "bought": "Nov 2025",
-      "condition": "Great",
-      "pickup": "Elevator Access (might need to be dismantled for ease of transport)",
-      "link": "https://www.ikea.com/ae/en/p/billy-bookcase-white-00263850/",
-      "images": [
-        "images/web/ikea_bookShelf-2.webp",
-        "images/web/ikea_bookShelf-1.webp"
-      ],
-      "imageAlt": "Ikea BILLY bookcase"
-    },
-    {
-      "id": "tv-with-stand",
-      "title": "Samsung TV + Rolling Stand",
-      "category": "Furniture",
-      "status": "available",
-      "description": "Samsung Smart TV (Full HD/43') + Rolling Stand. Ideally would like to sell them together.",
-      "askingPrice": 400,
-      "originalPrice": 650,
-      "negotiable": false,
-      "bought": "Dec 2025 (it was second hand)",
-      "condition": "Great",
-      "pickup": "Easy pickup",
-      "link": "https://amzn.eu/d/0fXFuDkl",
-      "images": [
-        "images/web/TV_RollingStand.webp"
-      ],
-      "imageAlt": "Samsung TV with rolling stand"
-    },
+    
     {
       "id": "white-wooden-stool",
       "title": "Ikea wooden side table",
