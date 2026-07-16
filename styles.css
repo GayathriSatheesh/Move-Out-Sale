@@ -375,8 +375,7 @@ main {
   cursor: pointer;
 }
 
-.image-wrap:hover .item-image,
-.image-wrap:hover .card-photo-grid {
+.image-wrap:hover .item-image {
   filter: brightness(0.98);
 }
 
@@ -393,41 +392,6 @@ main {
   background: #f3f8fb;
 }
 
-.card-photo-grid {
-  width: 100%;
-  height: 100%;
-  display: grid;
-  gap: 4px;
-  padding: 4px;
-  background: #f3f8fb;
-}
-
-.card-photo-grid img {
-  min-width: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  border-radius: 6px;
-  background: #fff;
-}
-
-.card-photo-grid.count-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.card-photo-grid.count-3 {
-  grid-template-columns: 1.08fr 0.92fr;
-  grid-template-rows: repeat(2, minmax(0, 1fr));
-}
-
-.card-photo-grid.count-3 img:first-child {
-  grid-row: 1 / span 2;
-}
-
-.card-photo-grid.count-many {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  grid-auto-rows: minmax(0, 1fr);
-}
 
 .image-fallback {
   height: 100%;
