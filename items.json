@@ -76,7 +76,7 @@
       "askingPrice": 600,
       "originalPrice": 1000,
       "negotiable": true,
-      "bought": "Dec 2025",
+      "bought": "Nov 2025",
       "condition": "Good as New",
       "pickup": "Elevator Access",
       "link": "https://amzn.eu/d/0fDSQDVJ",
@@ -85,6 +85,24 @@
         "images/web/Midea_WashingMachine-2.webp"
       ],
       "imageAlt": "Midea washing machine"
+    },
+    {
+      "id": "refrigerator",
+      "title": "Hisense Refrigerator",
+      "category": "Appliances",
+      "status": "reserved",
+      "description": " Still Under Warranty Period.Top Mount Refrigerator ",
+      "askingPrice": 800,
+      "originalPrice": 1200,
+      "negotiable": true,
+      "bought": "Nov 2025",
+      "condition": "Great",
+      "pickup": "Elevator Access",
+      "link": "https://amzn.eu/d/06LBYctP",
+      "images": [
+        "images/web/refrigerator-1.webp",
+      ],
+      "imageAlt": "Hisense washing machine"
     },
     {
       "id": "cooking-hob",
