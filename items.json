@@ -184,7 +184,7 @@
       "id": "steam-iron",
       "title": "Cloth Steamer",
       "category": "Household Items",
-      "status": "available",
+      "status": "reserved",
       "description": "Steamer for clothes.",
       "askingPrice": 30,
       "originalPrice": 111,
