@@ -87,24 +87,6 @@
       ],
       "imageAlt": "HomeCentre Mattress"
     },
-    // {
-    //   "id": "aroma-diffuser",
-    //   "title": "Muji Aroma Diffuser + warm light",
-    //   "category": "Household Items",
-    //   "status": "available",
-    //   "description": "Muji Aroma diffuser to be used with essential oils - also has two light modes. Can leave two essential oils too",
-    //   "askingPrice": 40,
-    //   "originalPrice": 189,
-    //   "negotiable": false,
-    //   "bought": "2023",
-    //   "condition": "Great",
-    //   "pickup": "Easy pickup",
-    //   "link": "",
-    //   "images": [
-    //     "images/web/Organizers.webp"      
-    //   ],
-    //   "imageAlt": "organizers"
-    // },
     {
       "id": "bamboo-bookReader",
       "title": "Book Stand/Reader",
