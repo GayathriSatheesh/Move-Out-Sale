@@ -87,6 +87,61 @@
       ],
       "imageAlt": "HomeCentre Mattress"
     },
+    // {
+    //   "id": "aroma-diffuser",
+    //   "title": "Muji Aroma Diffuser + warm light",
+    //   "category": "Household Items",
+    //   "status": "available",
+    //   "description": "Muji Aroma diffuser to be used with essential oils - also has two light modes. Can leave two essential oils too",
+    //   "askingPrice": 40,
+    //   "originalPrice": 189,
+    //   "negotiable": false,
+    //   "bought": "2023",
+    //   "condition": "Great",
+    //   "pickup": "Easy pickup",
+    //   "link": "",
+    //   "images": [
+    //     "images/web/Organizers.webp"      
+    //   ],
+    //   "imageAlt": "organizers"
+    // },
+    {
+      "id": "bamboo-bookReader",
+      "title": "Book Stand/Reader",
+      "category": "Household Items",
+      "status": "available",
+      "description": "Foldable bookrest/stand with adjustable support",
+      "askingPrice": 10,
+      "originalPrice": 50,
+      "negotiable": false,
+      "bought": "2023",
+      "condition": "Great",
+      "pickup": "Easy pickup",
+      "link": "https://amzn.eu/d/09JFAJTO",
+      "images": [
+        "images/web/bookReader-1.webp",
+        "images/web/bookReader-2.webp"      
+      ],
+      "imageAlt": "organizers"
+    },
+    {
+      "id": "organizers",
+      "title": "Organizers",
+      "category": "Household Items",
+      "status": "available",
+      "description": "Multiple organizers",
+      "askingPrice": 15,
+      "originalPrice": 70,
+      "negotiable": false,
+      "bought": "variable",
+      "condition": "Good - signs of use",
+      "pickup": "Easy pickup",
+      "link": "",
+      "images": [
+        "images/web/Organizers.webp"      
+      ],
+      "imageAlt": "organizers"
+    },
     {
       "id": "ikea-bookshelf",
       "title": "Ikea BILLY Bookcase",
