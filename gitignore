@@ -1,0 +1,13 @@
+# Keep original photos local, publish optimized WebP only
+images/**/*.jpg
+images/**/*.jpeg
+images/**/*.JPG
+images/**/*.JPEG
+images/**/*.png
+images/**/*.PNG
+images/**/*.heic
+images/**/*.HEIC
+
+# Keep the optimized web images
+!images/web/
+!images/web/**/*.webp
