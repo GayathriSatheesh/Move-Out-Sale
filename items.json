@@ -87,62 +87,7 @@
       ],
       "imageAlt": "HomeCentre Mattress"
     },
-    {
-      "id": "bamboo-bookReader",
-      "title": "Book Stand/Reader",
-      "category": "Household Items",
-      "status": "available",
-      "description": "Foldable bookrest/stand with adjustable support",
-      "askingPrice": 10,
-      "originalPrice": 70,
-      "negotiable": false,
-      "bought": "2022",
-      "condition": "Great",
-      "pickup": "Easy pickup",
-      "link": "https://amzn.eu/d/09JFAJTO",
-      "images": [
-        "images/web/bookReader-1.webp",
-        "images/web/bookReader-2.webp"      
-      ],
-      "imageAlt": "bookReader"
-    },
-    {
-      "id": "organizers",
-      "title": "Organizers",
-      "category": "Household Items",
-      "status": "available",
-      "description": "Multiple organizers",
-      "askingPrice": 15,
-      "originalPrice": 70,
-      "negotiable": false,
-      "bought": "variable",
-      "condition": "Good - signs of use",
-      "pickup": "Easy pickup",
-      "link": "",
-      "images": [
-        "images/web/Organizers.webp"      
-      ],
-      "imageAlt": "organizers"
-    },
-    {
-      "id": "ikea-bookshelf",
-      "title": "Ikea BILLY Bookcase",
-      "category": "Furniture",
-      "status": "available",
-      "description": "White Bookcase with adjustable shelves",
-      "askingPrice": 150,
-      "originalPrice": 275,
-      "negotiable": true,
-      "bought": "Nov 2025",
-      "condition": "Great",
-      "pickup": "Elevator Access (might need to be dismantled for ease of transport)",
-      "link": "https://www.ikea.com/ae/en/p/billy-bookcase-white-00263850/",
-      "images": [
-        "images/web/ikea_bookShelf-2.webp",
-        "images/web/ikea_bookShelf-1.webp"
-      ],
-      "imageAlt": "Ikea BILLY bookcase"
-    },
+
     {
       "id": "washing-machine",
       "title": "Midea Washing Machine",
@@ -199,6 +144,62 @@
         "images/web/CookingHob-4.webp"
       ],
       "imageAlt": "Siemens Cooking Hob"
+    },
+    {
+      "id": "bamboo-bookReader",
+      "title": "Book Stand/Reader",
+      "category": "Household Items",
+      "status": "available",
+      "description": "Foldable bookrest/stand with adjustable support",
+      "askingPrice": 10,
+      "originalPrice": 70,
+      "negotiable": false,
+      "bought": "2022",
+      "condition": "Great",
+      "pickup": "Easy pickup",
+      "link": "https://amzn.eu/d/09JFAJTO",
+      "images": [
+        "images/web/bookReader-1.webp",
+        "images/web/bookReader-2.webp"      
+      ],
+      "imageAlt": "bookReader"
+    },
+    {
+      "id": "organizers",
+      "title": "Organizers",
+      "category": "Household Items",
+      "status": "available",
+      "description": "Multiple organizers",
+      "askingPrice": 15,
+      "originalPrice": 70,
+      "negotiable": false,
+      "bought": "variable",
+      "condition": "Good - signs of use",
+      "pickup": "Easy pickup",
+      "link": "",
+      "images": [
+        "images/web/Organizers.webp"      
+      ],
+      "imageAlt": "organizers"
+    },
+    {
+      "id": "ikea-bookshelf",
+      "title": "Ikea BILLY Bookcase",
+      "category": "Furniture",
+      "status": "available",
+      "description": "White Bookcase with adjustable shelves",
+      "askingPrice": 150,
+      "originalPrice": 275,
+      "negotiable": true,
+      "bought": "Nov 2025",
+      "condition": "Great",
+      "pickup": "Elevator Access (might need to be dismantled for ease of transport)",
+      "link": "https://www.ikea.com/ae/en/p/billy-bookcase-white-00263850/",
+      "images": [
+        "images/web/ikea_bookShelf-2.webp",
+        "images/web/ikea_bookShelf-1.webp"
+      ],
+      "imageAlt": "Ikea BILLY bookcase"
     },
     {
       "id": "tv-with-stand",
