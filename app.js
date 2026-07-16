@@ -63,6 +63,32 @@ function renderCardPhotos(imageWrap, image, fallback, images, item, cardIndex) {
   });
 }
 
+function isInsideRenderedImage(event, image) {
+  if (!image.naturalWidth || !image.naturalHeight) return true;
+
+  const box = image.getBoundingClientRect();
+  if (!box.width || !box.height) return false;
+
+  const imageRatio = image.naturalWidth / image.naturalHeight;
+  const boxRatio = box.width / box.height;
+  let renderedWidth = box.width;
+  let renderedHeight = box.height;
+  let offsetX = 0;
+  let offsetY = 0;
+
+  if (imageRatio > boxRatio) {
+    renderedHeight = box.width / imageRatio;
+    offsetY = (box.height - renderedHeight) / 2;
+  } else {
+    renderedWidth = box.height * imageRatio;
+    offsetX = (box.width - renderedWidth) / 2;
+  }
+
+  const x = event.clientX - box.left;
+  const y = event.clientY - box.top;
+  return x >= offsetX && x <= offsetX + renderedWidth && y >= offsetY && y <= offsetY + renderedHeight;
+}
+
 function bindControls() {
   document.querySelector("#sort-select").addEventListener("change", (event) => {
     state.sort = event.target.value;
@@ -139,7 +165,17 @@ function renderItems() {
       image.setAttribute("tabindex", "0");
       image.setAttribute("aria-label", `Open details for ${item.title || "this item"}`);
       image.title = "Open details";
-      image.addEventListener("click", () => openDetails(item));
+      image.addEventListener("click", (event) => {
+        if (isInsideRenderedImage(event, image)) {
+          openDetails(item);
+        }
+      });
+      image.addEventListener("mousemove", (event) => {
+        image.classList.toggle("is-over-photo", isInsideRenderedImage(event, image));
+      });
+      image.addEventListener("mouseleave", () => {
+        image.classList.remove("is-over-photo");
+      });
       image.addEventListener("keydown", (event) => {
         if (event.key === "Enter" || event.key === " ") {
           event.preventDefault();
