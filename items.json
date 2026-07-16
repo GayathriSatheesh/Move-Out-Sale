@@ -49,6 +49,45 @@
       "imageAlt": "Ikea standing mirror"
     },
     {
+      "id": "sofa",
+      "title": "Home Centre Sofa",
+      "category": "Furniture",
+      "status": "available",
+      "description": "Comfy green sofa with removable back cushion, ample width to lounge. Fits 3 comfortably. (101 x 183 cm). Used less than 5 months",
+      "askingPrice": 1000,
+      "originalPrice": 1500,
+      "negotiable": true,
+      "bought": "Jan 2026",
+      "condition": "Great - used less than 5 months",
+      "pickup": "Elevator Access",
+      "link": "https://www.homecentre.com/ae/en/buy-restoril-2-seater-fabric-sofa/p/165653136",
+      "images": [
+        "images/web/sofa-1.webp",
+        "images/web/sofa-2.webp",
+        "images/web/sofa-3.webp"
+      ],
+      "imageAlt": "HomeCentre Sofa"
+    },
+    {
+      "id": "mattress-bedFrame",
+      "title": "HomeCentre Queen Mattress + PanHome Bed frame",
+      "category": "Furniture",
+      "status": "available",
+      "description": "Comfortable pocket spring mattress with foam - always used with a mattress cover. White wooden bed frame. Can sell separately. Price is for both together",
+      "askingPrice": 1000,
+      "originalPrice": 2000,
+      "negotiable": true,
+      "bought": "Jan 2026",
+      "condition": "Great - used less than 5 months",
+      "pickup": "Elevator Access",
+      "link": "https://www.homecentre.com/ae/en/buy-tranquil-high-resilience-visco-spring-queen-mattress-160x200-cm/p/163666060",
+      "images": [
+        "images/web/mattress-1.webp",
+        "images/web/mattress-2.webp"
+      ],
+      "imageAlt": "HomeCentre Mattress"
+    },
+    {
       "id": "ikea-bookshelf",
       "title": "Ikea BILLY Bookcase",
       "category": "Furniture",
@@ -195,6 +234,44 @@
       "link": "https://amzn.eu/d/04U7IY9b",
       "images": [
         "images/web/steamer.webp"
+      ],
+      "imageAlt": "Steam Iron"
+    },
+    {
+      "id": "weighing-scale",
+      "title": "Weighing Scale",
+      "category": "Household Items",
+      "status": "available",
+      "description": "Smart scale - can do basic body composition analysis | connects to eufy app via bluetooth",
+      "askingPrice": 20,
+      "originalPrice": 99,
+      "negotiable": true,
+      "bought": "July 2023",
+      "condition": "Good - battery replacement needed",
+      "pickup": "Easy pickup",
+      "link": "https://amzn.eu/d/0a1kaxvl",
+      "images": [
+        "images/web/weighingScale.webp"
+      ],
+      "imageAlt": "Weighing Scale"
+    },
+    {
+      "id": "art-supply",
+      "title": "Art Supply",
+      "category": "Hobbies",
+      "status": "available",
+      "description": "A bunch of art supply - gauche, Aarylic paints,palette knife, brushes, oil pastels, canvases, pencils etc. ",
+      "askingPrice": 40,
+      "originalPrice": ,
+      "negotiable": true,
+      "bought": "July 2023",
+      "condition": "used - but have lots of paint and papers left",
+      "pickup": "Easy pickup",
+      "link": "",
+      "images": [
+        "images/web/artSupply-1.webp",
+        "images/web/artSupply-2.webp",
+        "images/web/artSupply-3.webp"
       ],
       "imageAlt": "Steam Iron"
     },
