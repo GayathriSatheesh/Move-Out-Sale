@@ -112,9 +112,9 @@
       "status": "available",
       "description": "Foldable bookrest/stand with adjustable support",
       "askingPrice": 10,
-      "originalPrice": 50,
+      "originalPrice": 70,
       "negotiable": false,
-      "bought": "2023",
+      "bought": "2022",
       "condition": "Great",
       "pickup": "Easy pickup",
       "link": "https://amzn.eu/d/09JFAJTO",
@@ -122,7 +122,7 @@
         "images/web/bookReader-1.webp",
         "images/web/bookReader-2.webp"      
       ],
-      "imageAlt": "organizers"
+      "imageAlt": "bookReader"
     },
     {
       "id": "organizers",
@@ -317,7 +317,7 @@
       "status": "available",
       "description": "A bunch of art supply - gauche, Aarylic paints,palette knife, brushes, oil pastels, canvases, pencils etc. ",
       "askingPrice": 40,
-      "originalPrice": ,
+      "originalPrice": "variable",
       "negotiable": true,
       "bought": "July 2023",
       "condition": "used - but have lots of paint and papers left",
