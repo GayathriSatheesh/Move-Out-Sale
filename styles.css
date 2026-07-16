@@ -71,7 +71,9 @@ img {
   display: grid;
   align-items: center;
   border-bottom: 1px solid rgba(93, 152, 190, 0.22);
-  background-color: var(--blue-deep);
+  background:
+    radial-gradient(circle at 18px 18px, rgba(90, 183, 232, 0.18) 2px, transparent 3px) 0 0 / 34px 34px,
+    #dfeeff;
   overflow: hidden;
 }
 
@@ -82,7 +84,7 @@ img {
   z-index: 0;
   border: 1px solid rgba(255, 255, 255, 0.62);
   border-radius: 28px;
-  background-color: rgba(237, 248, 255, 0.84);
+  background-color: rgba(255, 255, 255, 0.18);
   animation: paper-drift 12s ease-in-out infinite;
 }
 
