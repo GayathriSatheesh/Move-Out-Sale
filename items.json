@@ -100,9 +100,9 @@
       "pickup": "Elevator Access",
       "link": "https://amzn.eu/d/06LBYctP",
       "images": [
-        "images/web/refrigerator-1.webp",
+        "images/web/refrigerator-1.webp"
       ],
-      "imageAlt": "Hisense washing machine"
+      "imageAlt": "Hisense Refrigerator
     },
     {
       "id": "cooking-hob",
