@@ -258,6 +258,79 @@
       "imageAlt": "Ikea wooden stool"
     },
     {
+      "id": "hair-dryer",
+      "title": "Hair Blow Dryer ( + Diffuser)",
+      "category": "Household Items",
+      "status": "available",
+      "description": " Ionic Hair Dryer (rarely used) - has all the attachments in original packaging",
+      "askingPrice": 50,
+      "originalPrice": 105,
+      "negotiable": true,
+      "bought": "July 2024",
+      "condition": "Great",
+      "pickup": "Easy pickup",
+      "link": "https://amzn.eu/d/04HuFmvr",
+      "images": [
+        "images/web/dryer.webp"
+      ],
+      "imageAlt": "Hair Blow Dryer"
+    },
+    {
+      "id": "kettle",
+      "title": "Electric Kettle",
+      "category": "Household Items",
+      "status": "available",
+      "description": " Black+decker kettle",
+      "askingPrice": 10,
+      "originalPrice": 65,
+      "negotiable": true,
+      "bought": "~",
+      "condition": "Good - works great, normal signs of use",
+      "pickup": "Easy pickup",
+      "link": "https://amzn.eu/d/0gxBFNxM",
+      "images": [
+        "images/web/kettle.webp"
+      ],
+      "imageAlt": "Fruit Basket"
+    },
+    {
+      "id": "rice-cooker",
+      "title": "Mini Rice Cooker",
+      "category": "Household Items",
+      "status": "available",
+      "description": " 1.2L Mini Non-Stick Electric Rice Cooker. Will need an adapter, plug is not compatible with UAE plug",
+      "askingPrice": 20,
+      "originalPrice": 100,
+      "negotiable": true,
+      "bought": "2023",
+      "condition": "OK - works great, normal signs of use",
+      "pickup": "Easy pickup",
+      "link": "https://amzn.eu/d/0eo0p6YI",
+      "images": [
+        "images/web/riceCooker.webp"
+      ],
+      "imageAlt": "Rice Cooker"
+    },
+    {
+      "id": "fruit-basket",
+      "title": "Fruit basket",
+      "category": "Household Items",
+      "status": "available",
+      "description": " Bamboo fruit basket",
+      "askingPrice": 15,
+      "originalPrice": 70,
+      "negotiable": true,
+      "bought": "April 2025",
+      "condition": "Great",
+      "pickup": "Easy pickup",
+      "link": "https://amzn.eu/d/0gxBFNxM",
+      "images": [
+        "images/web/fruitBasket-1.webp",
+        "images/web/fruitBasket-2.webp"
+      ],
+      "imageAlt": "Fruit Basket"
+    },
+    {
       "id": "steam-iron",
       "title": "Cloth Steamer",
       "category": "Household Items",
@@ -312,24 +385,6 @@
         "images/web/artSupply-3.webp"
       ],
       "imageAlt": "Steam Iron"
-    },
-    {
-      "id": "hair-dryer",
-      "title": "Hair Blow Dryer ( + Diffuser)",
-      "category": "Household Items",
-      "status": "available",
-      "description": " Ionic Hair Dryer (rarely used) - has all the attachments in original packaging",
-      "askingPrice": 50,
-      "originalPrice": 105,
-      "negotiable": true,
-      "bought": "July 2024",
-      "condition": "Great",
-      "pickup": "Easy pickup",
-      "link": "https://amzn.eu/d/04HuFmvr",
-      "images": [
-        "images/web/dryer.webp"
-      ],
-      "imageAlt": "Hair Blow Dryer"
     },
     {
       "id": "blender",
