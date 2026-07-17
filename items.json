@@ -478,25 +478,6 @@
       "imageAlt": "White stool"
     },
     {
-      "id": "curtain-rod",
-      "title": "Shower Curtain Rod",
-      "category": "Household Items",
-      "status": "available",
-      "description": "Amazon basics adjustable shower curtain tension rod",
-      "askingPrice": 10,
-      "originalPrice": 48,
-      "negotiable": true,
-      "bought": "Nov 2025",
-      "condition": "Good",
-      "pickup": "Easy pickup",
-      "link": "https://amzn.eu/d/07UCgzKf",
-      "images": [
-        "images/web/curtainRod.webp"
-      ],
-      "imageAlt": "curtain rod"
-    },
-
-    {
       "id": "bamboo-bookReader",
       "title": "Book Stand/Reader",
       "category": "Household Items",
