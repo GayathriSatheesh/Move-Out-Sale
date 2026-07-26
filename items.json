@@ -315,7 +315,7 @@
       "id": "weighing-scale",
       "title": "Weighing Scale",
       "category": "Household Items",
-      "status": "available",
+      "status": "reserved",
       "description": "Smart scale - can do basic body composition analysis | connects to eufy app via bluetooth",
       "askingPrice": 30,
       "originalPrice": 99,
