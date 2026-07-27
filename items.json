@@ -371,7 +371,7 @@
       "id": "vacuum-cleaner",
       "title": "Cordless Vacuum Cleaner",
       "category": "Household Items",
-      "status": "available",
+      "status": "reserved",
       "description": "Russell Hobbs Cordless Vacuum Cleaner",
       "askingPrice": 150,
       "originalPrice": 453,
